@@ -1,0 +1,92 @@
+@media screen and (max-width:768px) {
+    body {
+        width: 480px;
+    }
+    .header {
+        background-color: gray;
+        height: 75x;
+        width: 100%;
+        
+    }
+    
+    .aside {
+        background-color: lightblue;
+        height: 150px;
+        width: 100%;
+    }
+    
+    
+    .left-card,
+    .right-card {
+        background-color: lightpink;
+        float: left;
+        height: 125px;
+        width: 100%;
+    }
+    
+    .card-one,
+    .card-two,
+    .card-three,
+    .card-four {
+        background-color: lightgoldenrodyellow;
+        float: left;
+        height: 250px;
+        width: 50%;
+    }
+    
+    .card {
+        background-color: lightgreen;
+        float: left;
+        height: 80px;
+        width: 100%;
+    
+    }
+}
+
+@media screen and (min-width:768px) {
+
+body {
+    width: 960px;
+}
+
+.header {
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    
+}
+
+.aside {
+    background-color: lightblue;
+    float: left;
+    height: 600px;
+    width: 20%;
+}
+
+
+.left-card,
+.right-card {
+    background-color: lightpink;
+    float: left;
+    height: 200px;
+    width: 40%;
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+    background-color: lightgoldenrodyellow;
+    float: left;
+    height: 250px;
+    width: 20%;
+}
+
+.card {
+    background-color: lightgreen;
+    float: left;
+    height: 150px;
+    width: 80%;
+
+}
+}
