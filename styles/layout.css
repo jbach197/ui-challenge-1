@@ -1,5 +1,7 @@
 @media screen and (max-width:768px) {
-
+    body {
+        width: 480px;
+    }
     .header {
         background-color: gray;
         height: 75x;
@@ -43,6 +45,10 @@
 
 @media screen and (min-width:768px) {
 
+body {
+    width: 960px;
+}
+
 .header {
     background-color: gray;
     height: 100px;
@@ -82,4 +88,5 @@
     height: 150px;
     width: 80%;
 
+}
 }
